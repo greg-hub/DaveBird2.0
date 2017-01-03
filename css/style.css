@@ -10,27 +10,12 @@ h6,
 .h3,
 .h4,
 .h5,
-.h6 
-    {
-    font-family: 'TrajanPro-Regular';
-    font-weight: normal;
+.h6,
+  p    {
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
     font-style: normal;
 }
-
-  @font-face {
-  font-family: 'TrajanPro-Regular';
-  src: url('TrajanPro-Regular.eot');
-  src: url('TrajanPro-Regular.eot?#iefix') format('embedded-opentype'),
-  url('TrajanPro-Regular.woff') format('woff'),
-  url('TrajanPro-Regular.ttf') format('truetype'),
-  url('TrajanPro-Regular.svg#TrajanPro-Regular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
-
-
 
 /*
 *************
@@ -40,18 +25,19 @@ h6,
 
 
 .navbar-default {
-    background-color: white;
+  background-color: white;
    border-top: none;
-  
+
   }
 
 #navbarCollapse {
 text-align: center;
-  
+
 }
 
 .navbar {
   margin-bottom: 5px;
+ border-style: none;
 
 }
 .navbar-default .navbar-brand {
@@ -59,7 +45,7 @@ text-align: center;
     text-align: center;
    font-size: 30px;
    font-kerning: normal;
- 
+
 
 
 
@@ -76,15 +62,15 @@ text-align: center;
 
 li {
   font-size: 15px;
- 
+
 }
 
-.navbar-toggle 
+.navbar-toggle
 {
     float:none;
-   
 
-}   
+
+}
 .navbar-header
 {
     text-align:center;
@@ -94,8 +80,8 @@ li {
     color: #000;
    background: none;
  }
- .navbar-default .navbar-nav > .active > a, 
- .navbar-default .navbar-nav > .active > a:hover, 
+ .navbar-default .navbar-nav > .active > a,
+ .navbar-default .navbar-nav > .active > a:hover,
  .navbar-default .navbar-nav > .active > a:focus {
       color: #000;
       background: none;
@@ -104,7 +90,7 @@ li {
 @media all and (max-width: 1085px) { /* screen size until 500px */
    .navbar-default .navbar-brand {
         font-size: 20px; /* 0.8x default size */
-        
+
         }
 
         .navbar-brand small {
@@ -119,10 +105,10 @@ li {
 *************
 */
 @media (max-width: 992px) {
-    
+
     body {
       margin-top: 10px;
-    
+
     }
 
     .navbar-header {
@@ -204,7 +190,7 @@ margin-bottom: 1px;
 
 .col-sm-6{
   padding: 5px;
-} 
+}
 
 .col-xs-12{
    padding: 5px;
@@ -214,7 +200,7 @@ margin-bottom: 1px;
 
 
 
-/* hover effect */ 
+/* hover effect */
 
 .hovereffect {
   width: 100%;
