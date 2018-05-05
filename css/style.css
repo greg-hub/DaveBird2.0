@@ -18,7 +18,7 @@ h6,
 }
 
 p {
-    font-family: 'BenchNine', sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-weight: 500;
     font-size: 1.5rem;
 }*/
@@ -55,26 +55,24 @@ text-align: center;
 
 }
 .navbar-default .navbar-brand {
-   font-family: 'Sree Krushnadevaraya', serif;
+   font-family: 'Dosis', sans-serif;
    margin-bottom: 5px;
     text-align: center;
    font-size: 35px;
    font-kerning: normal;
-      
-
 }
 
 
 
 .navbar-brand small {
-  font-family: 'Sree Krushnadevaraya', serif;
+  font-family: 'Dosis', sans-serif;
   font-size: 25px;
    margin-left: 10px;
   opacity: 0.7;
 }
 
 li {
-  font-family: 'Sree Krushnadevaraya', serif;
+  font-family: 'Dosis', sans-serif;
   font-size: 15px;
   margin-top: 9px;
 
@@ -121,17 +119,17 @@ li {
 
 @media (max-width: 1370px) {
   .navbar-default .navbar-brand {
-      font-family: 'Sree Krushnadevaraya', serif;
+      font-family: 'Dosis', sans-serif;
     font-size: 30px;
   }
   .navbar-brand small {
-    font-family: 'Sree Krushnadevaraya', serif;
+    font-family: 'Dosis', sans-serif;
   font-size: 25px;
 
 }
   li {
     font-size: 14px;
-    margin-top: 5px;
+    margin-top: 0px;
   }
 
   }
@@ -299,13 +297,13 @@ margin-bottom: 1px;
 
 .hovereffect:hover img {
   filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
-  filter: brightness(0.6);
-  -webkit-filter: brightness(0.6);
+  filter: brightness(0.9);
+  -webkit-filter: brightness(0.9);
 }
 
 
 .hovereffect h2 {
- font-family: 'Sree Krushnadevaraya', serif;
+  font-family: 'Dosis', sans-serif;
   /*text-transform: uppercase;*/
   text-align: center;
   position: relative;
@@ -322,7 +320,7 @@ margin-bottom: 1px;
   opacity: 0;
   -webkit-transition: opacity 0.8s, -webkit-transform 0.8s;
   color: white;
-  font-family: 'BenchNine', sans-serif;
+  font-family: 'Dosis', sans-serif;
   font-size: 18px;
 }
 
@@ -360,7 +358,7 @@ a:hover{
 *************
 */
 h4 {
- font-family: 'Sree Krushnadevaraya', serif;
+ font-family: 'Dosis', sans-serif;
   font-size: 16px;
   text-align: center;
   color:#5e5e5e;
@@ -491,7 +489,7 @@ border:none;
 */
 
 h5, h6 {
-  font-family: 'Sree Krushnadevaraya', serif;
+  font-family: 'Dosis', sans-serif;
   font-size: 13px;
   text-align: center;
 
@@ -499,7 +497,7 @@ h5, h6 {
 p {
   margin: 0;
   color: #2a2a2a;
-   font-family: 'Sree Krushnadevaraya', serif;
+   font-family: 'Dosis', sans-serif;
      font-size: 15px;
 }
 
